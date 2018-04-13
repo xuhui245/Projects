@@ -1,0 +1,14 @@
+<div class = "container">
+   <h1>Hello {{title}}</h1>
+     <div>
+        <img src = {{person.avatar}}>
+        <p>I am {{person.name}}, {{person.age}} years old.</p>
+        <p>I have three best friends:</p>
+     </div>
+     
+     <ul *ngIf="showDetail">
+        <li *ngFor="let friend of person.friends">
+          {{friend.name}}
+        </li>
+     </ul>
+   </div>

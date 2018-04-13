@@ -1,0 +1,30 @@
+
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+  text-align: center;
+}
+
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    border-bottom: #ccc 2px solid;
+    padding: 5px 0;
+}
+
+.container{
+    margin: auto;
+    background: #f4f4f4;
+    width: 300px;
+    text-align: center;
+}
